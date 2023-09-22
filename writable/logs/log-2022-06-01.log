@@ -1,0 +1,48 @@
+ERROR - 2022-06-01 19:44:25 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-06-01 19:44:25 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\sm2\pw52\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO buk...', 0)
+#1 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 C:\xampp\htdocs\sm2\pw52\app\Models\Mdata.php(73): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 C:\xampp\htdocs\sm2\pw52\app\Controllers\Basis.php(84): App\Models\Mdata->TambahData('0000000', 'Buku Percobaan', '123456', '212', '107', '2021', 'R78')
+#5 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(832): App\Controllers\Basis->TambahData()
+#6 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sm2\pw52\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 19:46:33 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-06-01 19:46:33 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\sm2\pw52\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO buk...', 0)
+#1 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 C:\xampp\htdocs\sm2\pw52\app\Models\Mdata.php(73): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 C:\xampp\htdocs\sm2\pw52\app\Controllers\Basis.php(84): App\Models\Mdata->TambahData('0000000', 'Buku Percobaan', '123456', '212', '107', '2021', 'R78')
+#5 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(832): App\Controllers\Basis->TambahData()
+#6 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sm2\pw52\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 19:48:34 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-06-01 19:48:34 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\sm2\pw52\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO buk...', 0)
+#1 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 C:\xampp\htdocs\sm2\pw52\app\Models\Mdata.php(73): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 C:\xampp\htdocs\sm2\pw52\app\Controllers\Basis.php(84): App\Models\Mdata->TambahData('0000000', 'Buku Percobaan', '123456', '212', '107', '2021', 'R78')
+#5 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(832): App\Controllers\Basis->TambahData()
+#6 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sm2\pw52\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 19:51:49 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-06-01 19:51:49 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\sm2\pw52\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO buk...', 0)
+#1 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 C:\xampp\htdocs\sm2\pw52\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 C:\xampp\htdocs\sm2\pw52\app\Models\Mdata.php(73): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 C:\xampp\htdocs\sm2\pw52\app\Controllers\Basis.php(84): App\Models\Mdata->TambahData('0000000', 'Buku Percobaan', '123456', '212', '107', '2021', 'R78')
+#5 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(832): App\Controllers\Basis->TambahData()
+#6 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\sm2\pw52\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sm2\pw52\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

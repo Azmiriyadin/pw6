@@ -1,0 +1,58 @@
+CRITICAL - 2022-06-20 03:34:39 --> Undefined constant "Config\APPATH"
+#0 C:\xampp\htdocs\pw6\system\Debug\Toolbar\Collectors\Database.php(251): CodeIgniter\Database\Config::getConnections()
+#1 C:\xampp\htdocs\pw6\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#2 C:\xampp\htdocs\pw6\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#3 C:\xampp\htdocs\pw6\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#4 C:\xampp\htdocs\pw6\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#5 C:\xampp\htdocs\pw6\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#6 C:\xampp\htdocs\pw6\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#7 C:\xampp\htdocs\pw6\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#8 C:\xampp\htdocs\pw6\app\Config\Events.php(48): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\xampp\htdocs\pw6\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#10 C:\xampp\htdocs\pw6\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#11 C:\xampp\htdocs\pw6\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-20 03:35:11 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2022-06-20 03:35:11 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+#0 C:\xampp\htdocs\pw6\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pw6\app\Models\Mdata.php(25): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pw6\app\Controllers\Basis.php(8): App\Models\Mdata->getTotalBuku()
+#3 C:\xampp\htdocs\pw6\system\CodeIgniter.php(832): App\Controllers\Basis->index()
+#4 C:\xampp\htdocs\pw6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#5 C:\xampp\htdocs\pw6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pw6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 03:39:22 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2022-06-20 03:39:22 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+#0 C:\xampp\htdocs\pw6\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pw6\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pw6\app\Controllers\Basis.php(8): App\Models\Mdata->getTotalBuku()
+#3 C:\xampp\htdocs\pw6\system\CodeIgniter.php(832): App\Controllers\Basis->index()
+#4 C:\xampp\htdocs\pw6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#5 C:\xampp\htdocs\pw6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pw6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 03:46:09 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2022-06-20 03:46:09 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+#0 C:\xampp\htdocs\pw6\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pw6\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pw6\app\Controllers\Basis.php(8): App\Models\Mdata->getTotalBuku()
+#3 C:\xampp\htdocs\pw6\system\CodeIgniter.php(832): App\Controllers\Basis->index()
+#4 C:\xampp\htdocs\pw6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#5 C:\xampp\htdocs\pw6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pw6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 11:24:53 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2022-06-20 11:24:53 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+#0 C:\xampp\htdocs\pw6\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pw6\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pw6\app\Controllers\Basis.php(8): App\Models\Mdata->getTotalBuku()
+#3 C:\xampp\htdocs\pw6\system\CodeIgniter.php(832): App\Controllers\Basis->index()
+#4 C:\xampp\htdocs\pw6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#5 C:\xampp\htdocs\pw6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pw6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

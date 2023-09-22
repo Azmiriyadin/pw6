@@ -1,0 +1,10 @@
+CRITICAL - 2022-05-23 23:25:29 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\sm2\pw5\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\sm2\pw5\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sm2\pw5\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\sm2\pw5\app\Controllers\Basis.php(13): view('home', Array)
+#4 C:\xampp\htdocs\sm2\pw5\system\CodeIgniter.php(832): App\Controllers\Basis->data()
+#5 C:\xampp\htdocs\sm2\pw5\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#6 C:\xampp\htdocs\sm2\pw5\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sm2\pw5\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
